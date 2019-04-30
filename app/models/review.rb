@@ -1,5 +1,5 @@
 class Review < ApplicationRecord
-  belongs_to :restaurante
+  belongs_to :restaurant
 
   validates_associated :restaurant
   validates :value, inclusion: 1..5
