@@ -12,3 +12,7 @@
 * Adicionado callback para calcular o valor total do pedido
 
 ### Correções de Bug
+* Corrigido identação no Serializers
+* Corrigido escrita de "neighbourhood" no seeds.db
+* Corrigido escrita da model de product
+* Corrigido serializers restaurant ID para trazer retorno correto
