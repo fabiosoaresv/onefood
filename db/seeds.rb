@@ -36,7 +36,7 @@
      description: 'Nossa missão tem sido ajudar as pessoas a alcançar seus objetivos de saúde e bem-estar. Embora tenhamos mudado ao longo dos anos, nossos valores permaneceram os mesmos.',
      status: 'open', delivery_tax: 5.50,
      state: 'SP', city: 'São Paulo', street: 'Melo Barreto',
-     number: '1393', neighborhood: 'Brás', category_id: 1
+     number: '1393', neighbourhood: 'Brás', category_id: 1
    )
    r.image.attach(io: File.open(path_image), filename: '1.jpg')
    pc = ProductCategory.create!(title: 'Pratos Mexicanos', restaurant: r)
@@ -51,7 +51,7 @@
      description: 'Para alcançar e manter essa distinção em comida e vinho, serviço, ambiente e ambiente, o restaurante ganha reputação de primeira classe por gastronomia, hospitalidade graciosa e informada, conforto e beleza que atraem clientes novos e repetidos ano após ano.',
      status: 'open', delivery_tax: 5.50,
      state: 'SP', city: 'São Paulo', street: 'Viela Eugênio Monteiro Junior',
-     number: '659', neighborhood: 'Paraíso', category_id: 1
+     number: '659', neighbourhood: 'Paraíso', category_id: 1
    )
    r.image.attach(io: File.open(path_image), filename: '2.jpg')
    pc = ProductCategory.create!(title: 'Pratos Mexicanos', restaurant: r)
@@ -67,7 +67,7 @@
      description: 'Estamos empenhados em usar os melhores ingredientes em nossas receitas. Nenhum alimento deixa a nossa cozinha que nós mesmos não comeríamos.',
      status: 'open', delivery_tax: 3.50,
      state: 'SP', city: 'São Paulo', street: 'Rua Coperema',
-     number: '250', neighborhood: 'Jardim Jaú (Zona Leste)', category_id: 2
+     number: '250', neighbourhood: 'Jardim Jaú (Zona Leste)', category_id: 2
    )
    r.image.attach(io: File.open(path_image), filename: '3.jpg')
    pc = ProductCategory.create!(title: 'Porções', restaurant: r)
@@ -82,7 +82,7 @@
      description: 'Nossa missão é estabelecer relações comerciais benéficas com diversos fornecedores que compartilham nosso compromisso com o atendimento ao cliente, qualidade e preços competitivos.',
      status: 'open', delivery_tax: 6.70,
      state: 'SP', city: 'São Paulo', street: 'Rua Joaquim Pinto',
-     number: '929', neighborhood: 'Vila Gomes Cardim', category_id: 2
+     number: '929', neighbourhood: 'Vila Gomes Cardim', category_id: 2
    )
    r.image.attach(io: File.open(path_image), filename: '4.jpg')
    pc = ProductCategory.create!(title: 'Fogazzas (Individuais)', restaurant: r)
@@ -98,7 +98,7 @@
      description: 'Existimos para garantir que cada hóspede receba um serviço rápido, profissional, amigável e cortês.',
      status: 'open', delivery_tax: 7.50,
      state: 'SP', city: 'São Paulo', street: 'Avenida Manoel Domingos Pinto',
-     number: '507', neighborhood: 'Parque Anhangüera', category_id: 3
+     number: '507', neighbourhood: 'Parque Anhangüera', category_id: 3
    )
    r.image.attach(io: File.open(path_image), filename: '5.jpg')
    pc = ProductCategory.create!(title: 'Entrada', restaurant: r)
@@ -113,7 +113,7 @@
      description: 'Restaurante conceituado, vencedor por 5 vezes como melhor restaurante Japones de São Paulo.',
      status: 'open', delivery_tax: 8.30,
      state: 'SP', city: 'São Paulo', street: 'Rua Francisco Artassio',
-     number: '134', neighborhood: 'Jardim das Laranjeiras', category_id: 3
+     number: '134', neighbourhood: 'Jardim das Laranjeiras', category_id: 3
    )
    r.image.attach(io: File.open(path_image), filename: '6.jpg')
    pc = ProductCategory.create!(title: 'Entrada', restaurant: r)
@@ -129,7 +129,7 @@
      description: 'NOSSA ESPECIALIDADE. pratos vegetais de alta qualidade,com opções de alimentos integrais, sem glúten e sem lactose.',
      status: 'open', delivery_tax: 5.70,
      state: 'SP', city: 'São Paulo', street: 'Alameda dos Uapês',
-     number: '933', neighborhood: 'Planalto Paulista', category_id: 4
+     number: '933', neighbourhood: 'Planalto Paulista', category_id: 4
    )
    r.image.attach(io: File.open(path_image), filename: '7.jpg')
    pc = ProductCategory.create!(title: 'Saladas, molhos e wraps', restaurant: r)
@@ -144,7 +144,7 @@
      description: 'Oferecemos, desde 1981, refeições ovo-lacto-vegetarianas, leves, saudáveis, balanceadas e principalmente saborosas, procurando aliar o sabor, a qualidade de vida e o bem-estar dos clientes.',
      status: 'open', delivery_tax: 8.30,
      state: 'SP', city: 'São Paulo', street: 'Rua Natal',
-     number: '938', neighborhood: 'Cantinho do Céu', category_id: 4
+     number: '938', neighbourhood: 'Cantinho do Céu', category_id: 4
    )
    r.image.attach(io: File.open(path_image), filename: '8.jpg')
    pc = ProductCategory.create!(title: 'Saladas, molhos e wraps', restaurant: r)
