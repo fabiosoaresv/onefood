@@ -2,8 +2,8 @@
 
 one:
   value: 1
-  restaurante: one
+  restaurant: one
 
 two:
   value: 1
-  restaurante: two
+  restaurant: two
