@@ -65,10 +65,10 @@ ActiveRecord::Schema.define(version: 2019_04_30_023018) do
 
   create_table "product_categories", force: :cascade do |t|
     t.string "title"
-    t.integer "restaurante_id"
+    t.integer "restaurant_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["restaurante_id"], name: "index_product_categories_on_restaurante_id"
+    t.index ["restaurant_id"], name: "index_product_categories_on_restaurant_id"
   end
 
   create_table "products", force: :cascade do |t|
@@ -104,10 +104,10 @@ ActiveRecord::Schema.define(version: 2019_04_30_023018) do
 
   create_table "reviews", force: :cascade do |t|
     t.integer "value"
-    t.integer "restaurante_id"
+    t.integer "restaurant_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["restaurante_id"], name: "index_reviews_on_restaurante_id"
+    t.index ["restaurant_id"], name: "index_reviews_on_restaurant_id"
   end
 
 end
