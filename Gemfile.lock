@@ -149,6 +149,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers (~> 0.10.2)
   bootsnap (>= 1.1.0)
+  bundler (= 1.16.1)
   byebug
   geocoder (~> 1.5, >= 1.5.1)
   listen (>= 3.0.5, < 3.2)
