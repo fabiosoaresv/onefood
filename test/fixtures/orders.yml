@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  phone_number: MyString
+  total: MyString
+  vlue: 1.5
+  address: MyString
+  status: 1
+  restaurant: one
+
+two:
+  name: MyString
+  phone_number: MyString
+  total: MyString
+  vlue: 1.5
+  address: MyString
+  status: 1
+  restaurant: two
