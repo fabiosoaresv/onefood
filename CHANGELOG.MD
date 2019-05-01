@@ -1,4 +1,7 @@
 ### PRÓXIMAS
+### Funcionalidades
+
+### Correções de Bug
 
 ### v1.0
 ### Funcionalidades
